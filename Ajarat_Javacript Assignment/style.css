@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 70px 5%;
+  }
+  .bio {
+    height: 100vh;
+    width: 100%;
+    background-color: #3d3c42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .container {
+    height: auto;
+    width: 100%;
+    max-width: 460px;
+    background-color: #0808278a;
+    padding: 0px 0px 40px 0px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .container img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 0px 20px 0px 0px;
+  }
+  
+  .bio-text h1 {
+    margin: 30px 0 10px;
+    font-size: 35px;
+    color: #ffffffd9;
+    font-weight: 600;
+    box-shadow: i;
+  }
+  
+  .bio-text h4 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .tiidelab {
+    color: #ffa500;
+  }
+  
+  .tiidelab:hover{
+      color: white;
+  }
+  
+  .icons i {
+    display: inline-block;
+    color: #ffffffd9;
+    font-size: 18px;
+    margin: 0px 7px;
+    margin-bottom: 2.2rem;
+  }
+  
+  .icons i:hover {
+    transform: scale(1.1);
+    color: #efb90b;
+  }
+  
+  #message {
+    /* color: orange; */
+    color: crimson;
+    padding: 1px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  
+  button {
+    background-color: #efb90b;
+    color: #ffffffd9;
+    padding: 9px 29px;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #ffa500;
+    text-decoration: underline;
+    box-shadow: 2px 2px #ffa500;
+  }
+  
+  @media only screen and (min-width: 992px) and (min-width: 768px) {
+    section {
+      padding: 20px 4%;
+    }
+    .container {
+      width: 100px;
+      height: auto;
+      max-width: 600px;
+    }
+    .container img {
+      width: 100%;
+      height: 460px;
+      object-fit: cover;
+    }
+  }
+  
